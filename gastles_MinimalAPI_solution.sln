@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gastles_MinimalAPI_solution", "gastles_MinimalAPI_solution\gastles_MinimalAPI_solution.csproj", "{AFF43953-093C-4259-8567-6BBE300D01BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF43953-093C-4259-8567-6BBE300D01BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF43953-093C-4259-8567-6BBE300D01BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF43953-093C-4259-8567-6BBE300D01BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF43953-093C-4259-8567-6BBE300D01BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8A81C9B-D3ED-4560-830A-6699AADBD389}
+	EndGlobalSection
+EndGlobal
