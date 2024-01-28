@@ -13,9 +13,7 @@ public class Program
 
         app.MapGet("/", () => "Hello world!");
 
-        app.MapGet("/robots.txt", () => "/voertuigen\n/voertuigen/{naam}\n/voertuigen/{naam}/toeter\n/voertuigen/auto\n/voertuigen/motor\n/voertuigen/boot\nDisallow: /passwords");
         app.MapGet("/voertuigen", () => _garage.Voertuigen);
-        app.MapGet("/passwords", () => Password.Passwords);
         app.MapGet("/voertuigen/{naam}", (string naam) => _garage.VerkrijgVoertuig(naam));
         app.MapGet("/voertuigen/{naam}/toeter", (string naam) => _garage.VerkrijgVoertuig(naam).Toeter());
 
